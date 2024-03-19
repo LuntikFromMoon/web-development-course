@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image: url("./images/quarry.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10%;
+}
+
+.top-menu{
+    padding-top: 1%;
+    max-width: 940px;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 35px;
+    font-family: Oxygen;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.top-header{
+    margin: 184px auto 0;
+    text-align: center;
+    /*align-items: center;*/
+    max-width: 940px;
+}
+
+.top-header h1{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    font-family: Lora;
+}
+
+.top-header h2{
+    margin-top: 13px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: Oxygen;
+    opacity: 0.63;
+}
+
+.top-header button{
+    margin-top: 31px;
+    padding: 11px 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(221, 120, 63);
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Oxygen;
+    border-radius: 2%;
+
+}
+
+.topics{
+    width: 100%;
+    padding: 1% 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.topics .link{
+    color: rgb(118, 128, 136);
+}
+
+.topics ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.main-info{
+    background-color: rgb(247, 247, 247);
+}
+
+.main-info{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.main-posts{
+    display: flex;
+    /*justify-content: space-between;*/
+    width: auto;
+    margin: 0 18%;
+    gap: 10px;
+}
+
+.main-posts h4{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    font-family: Lora;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1%;
+}
+
+.main-posts h5{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    font-family: Oxygen;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main-posts p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: Oxygen;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2%;
+}
+
+h3{
+    padding-top: 3%;
+    /*padding-bottom: 2%;*/
+    margin: 0 auto 2%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: Oxygen;
+    color: rgb(46, 46, 46);
+    /*border: solid gray;*/
+}
+
+.featured-posts-blocks{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18% 2% 2% 2%;
+    text-align: left;
+    width: 47%;
+    border-radius: 1%;
+}
+
+.the-road-ahead{
+    background-image: url("./images/polar_lights.png");
+}
+
+.from-top-down{
+    background-image: url("./images/lanterns.png");
+}
+
+.from-top-down button{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgb(221, 120, 63);
+    border: none;
+    padding: 0.5% 0.7%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    font-family: Oxygen;
+    /*max-width: 90%;*/
+    text-transform: uppercase;
+    margin-top: -10%;
+}
+
+.featured-posts-blocks h5, .featured-posts-blocks img{
+    display: inline;
+    vertical-align: middle;
+}
+
+.featured-posts-blocks .data{
+    margin-left: 45%;
+}
+
+.another-posts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 18%;
+    /*gap: 10px;*/
+    justify-content: space-between;
+    column-gap: 2px;
+}
+
+.most-recent-blocks {
+    width: 31.5%;
+    margin-bottom: 4%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.most-recent-blocks .landscape{
+    width: 100%;
+}
+
+.discription{
+    padding: 4%;
+    min-height: 21%;
+}
+
+.discription h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: Lora;
+    color: rgb(16, 19, 21);
+}
+
+.discription p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    font-family: Oxygen;
+    color: rgb(122, 122, 122);
+    margin-top: 1%;
+}
+
+.author {
+    background-color: rgb(252, 252, 252);
+    border-top: 1px solid #EFEFEF;
+    padding: 5%;
+    /*vertical-align: middle;
+    vertical-align: bottom;
+    display: inline;*/
+}
+
+.author img{
+    display: inline;
+}
+
+.author p{
+    vertical-align: super;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 35px;
+    font-family: Oxygen;
+    color: rgb(153, 153, 153);
+    display: inline;
+}
+
+.author .data{
+    margin-left: 38%;
+}
+
+.bottom{
+    width: 100%;
+    background: url(./images/bottom_img.png) rgba(83, 87, 128, 0.6);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2% 0 1% 0;
+    /*display: flex;
+    justify-content: space-between;*/
+}
+
+.bottom-menu {
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bottom-menu .link{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    font-family: Oxygen;
+    color: rgba(255, 255, 255, 0.6);
+}
